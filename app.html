@@ -29,11 +29,15 @@
         </div>
 
     </fieldset>
-    <input type="submit" value="送信" onclick="send()">
+    <input type="submit" value="送信" onclick="ques()">
 
     <script>
-        function send(){
-            alert("できませんでした")
+        function ques(){
+            if(window.confirm("できませんでした")){
+
+            }else{
+                send();
+            }
         }
     </script>
 
